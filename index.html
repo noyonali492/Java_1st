@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<form name="noyon" action="" method="">
+  Insert The Value
+  <input type="textfield"  name="inputvalue">
+  
+    
+<button type="submit" name="btn" onclick="noychcase()">Submit</button>
+</form>
+    
+    
+    <script>
+        function noychcase(){
+            var a =document.noyon.inputvalue.value;
+            var lower = a.toLowerCase();// make upper case to lower case
+            
+            switch (lower){
+                case "a":
+                    document.write("Apple </br>");
+                   
+                    document.write('<img src="me.jpg" alt="Girl in a jacket" width="50" height="50">');
+                    break;
+                case "b":
+                    document.write("Ball");
+                    break;
+                case "c":
+                    document.write("Cat");
+                    break;
+                    
+                default:
+                    document.write("It dose not match");
+                    break;
+                    
+            }
+        }
+    </script>
+</body>
+</html>
